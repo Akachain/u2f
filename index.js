@@ -214,6 +214,10 @@ module.exports = {
     request: request,
     checkRegistration: checkRegistration,
     checkSignature: checkSignature,
+    convertCertToPEM: convertCertToPEM,
+    toWebsafeBase64: toWebsafeBase64,
+    asnLen: asnLen,
+    hash: hash,
 
     // Supplemental API, mostly for testing.
     _hash: hash,

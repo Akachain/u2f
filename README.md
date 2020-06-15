@@ -4,6 +4,8 @@ This is a simple library to register and check signatures provided by U2F client
 It's intended to be used in Relying Parties - websites that want to add U2F 2-factor authentication
 for their users.
 
+We implement this method for Claim & Deposit Transaction on akaChain network
+
 To use U2F, it is recommended to familiarize yourself with [FIDO Alliance Specifications](https://fidoalliance.org/download/),
 although basic usage is shown below.
 
@@ -130,8 +132,13 @@ window.u2f.sign(authRequest.appId, authRequest.challenge, [authRequest], (authRe
 
 ## Useful links
 
+https://akc-sdk.akachain.io
+https://github.com/Akachain/hstx-go-sdk
+https://github.com/Akachain/hstx-node-sdk
+https://github.com/Akachain/hstx-samples
 http://demo.yubico.com/u2f  
-https://github.com/Yubico/python-u2flib-server  
+https://github.com/Yubico/python-u2flib-server
+
 
 
 
