@@ -1,10 +1,10 @@
 {
   "name": "u2f",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "U2F 2-factor authentication library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashtuchkin/u2f"
+    "url": "https://github.com/Akachain/u2f"
   },
   "scripts": {
     "test": "mocha test"
@@ -14,13 +14,14 @@
     "2-factor",
     "authentication"
   ],
-  "author": "Alexander Shtuchkin <ashtuchkin@gmail.com>",
+  "author": "Daniel Pham <hongsongp97@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ashtuchkin/u2f/issues"
+    "url": "https://github.com/Akachain/u2f/issues"
   },
-  "homepage": "https://github.com/ashtuchkin/u2f",
+  "homepage": "https://github.com/Akachain",
   "devDependencies": {
     "mocha": "2"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
