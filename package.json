@@ -1,5 +1,5 @@
 {
-  "name": "u2f",
+  "name": "@akachain/u2f",
   "version": "1.0.0",
   "description": "U2F 2-factor authentication library",
   "repository": {
